@@ -72,4 +72,13 @@ C.~R.~B. Cabral, V.~H. Lachos, and C.~B. Zeller, ``Multivariate measurement
 A.~Camponogara, ``Measurement and characterization of aircraft {PLC}
   channels,'' Master's thesis, Federal University of Juiz de Fora, Aug. 2016.
 
+\bibitem{ENA}
+S.~D. Conte and C.~D. Boor, \emph{Elementary Numerical Analysis: An Algorithmic
+  Approach}, 3rd~ed.\hskip 1em plus 0.5em minus 0.4em\relax McGraw-Hill, Mar.
+  1980.
+
+\bibitem{CS1}
+S.~A. Dyer and J.~S. Dyer, ``Cubic-spline interpolation. 1,'' \emph{IEEE
+  Instrumentation Measurement Magazine}, vol.~4, no.~1, pp. 44--46, Mar. 2001.
+
 \end{thebibliography}
