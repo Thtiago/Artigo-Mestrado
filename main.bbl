@@ -81,4 +81,64 @@ S.~D. Conte and C.~D. Boor, \emph{Elementary Numerical Analysis: An Algorithmic
 S.~A. Dyer and J.~S. Dyer, ``Cubic-spline interpolation. 1,'' \emph{IEEE
   Instrumentation Measurement Magazine}, vol.~4, no.~1, pp. 44--46, Mar. 2001.
 
+\bibitem{Thiago:Characterization}
+T.~R. Oliveira, A.~A.~M. Picorone, S.~L. Netto, and M.~V. Ribeiro,
+  ``Characterization of {B}razilian in-home power line channels for data
+  communication,'' \emph{Electric Power Systems Research}, vol. 150, pp.
+  188--197, Sep. 2017.
+
+\bibitem{Thiago:FR}
+T.~R. Oliveira, C.~A.~G. Marques, W.~A. Finamore, S.~L. Netto, and M.~V.
+  Ribeiro, ``A methodology for estimating frequency responses of electric power
+  grids,'' \emph{Journal of Control, Automation and Electrical Systems},
+  vol.~25, no.~6, pp. 720--731, 2014.
+
+\bibitem{HSOFDM}
+M.~V. Ribeiro, G.~R. Colen, F.~V. p.~De~Campos, Z.~Quan, and H.~V. Poor,
+  ``Clustered-orthogonal frequency division multiplexing for power line
+  communication: when is it beneficial?'' \emph{IET Communications}, vol.~8,
+  no.~13, pp. 2336--2347, Sep. 2014.
+
+\bibitem{Picorone}
+A.~A.~M. Picorone, T.~R. Oliveira, and M.~V. Ribeiro, ``{PLC} channel
+  estimation based on pilots signal for {OFDM} modulation: A review,''
+  \emph{IEEE Latin America Transactions}, vol.~12, no.~4, pp. 580--589, Jun.
+  2014.
+
+\bibitem{Gardner:Interpolation}
+F.~M. Gardner, ``Interpolation in digital modems. i. fundamentals,'' \emph{IEEE
+  Trans, Commun.}, vol.~41, no.~3, pp. 501--507, Mar. 1993.
+
+\bibitem{Hanzo:OFDMSync}
+T.~Keller and L.~Hanzo, ``Orthogonal frequency division multiplex
+  synchronization techniques for wireless local area networks,'' in \emph{Proc.
+  IEEE Int. Symp. on Personal, Indoor and Mobile Radio Communications}, vol.~3,
+  Oct. 1996, pp. 963--967.
+
+\bibitem{Cardoso:CEzeropad}
+D.~F. Cardoso, F.~D. Backx, and R.~Sampaio-Neto, ``Improved pilot-aided channel
+  estimation in zero padded {MC-CDMA} systems,'' in \emph{Proc. Int. Symp. on
+  Wireless Pervasive Computing}, Feb. 2009, pp. 1--5.
+
+\bibitem{Ouzzif:CP}
+M.~Ouzzif and J.~L. Masson, ``Statistical analysis of the cyclic prefix impact
+  on indoor {PLC} capacity,'' in \emph{Proc. IEEE Int. Symp. on Power Line
+  Commun. Appl.}, Mar. 2009, pp. 285--289.
+
+\bibitem{Canete:AIPLC}
+F.~J.~C. Corripio, J.~A.~C. Arrabal, L.~D. del Rio, and J.~T.~E. Munoz,
+  ``Analysis of the cyclic short-term variation of indoor power line
+  channels,'' \emph{IEEE J. Sel. Areas Commun.}, vol.~24, no.~7, pp.
+  1327--1338, Jul. 2006.
+
+\bibitem{Galli:Wireline}
+S.~Galli, ``A novel approach to the statistical modeling of wireline
+  channels,'' \emph{IEEE Trans. Commun.}, vol.~59, no.~5, pp. 1332--1345, May
+  2011.
+
+\bibitem{RayleighPLC}
+A.~Mathur, M.~R. Bhatnagar, and B.~K. Panigrahi, ``{PLC} performance analysis
+  over rayleigh fading channel under nakagami- $m$ additive noise,'' \emph{IEEE
+  Communications Letters}, vol.~18, no.~12, pp. 2101--2104, Dec. 2014.
+
 \end{thebibliography}
