@@ -280,11 +280,12 @@ Fig. \ref{MAG_percent} shows the relative frequency of statistical distributions
 	\label{MAG_percent}
 \end{figure}
 
-In order to evaluate which of the three distributions is the best choice to model the magnitude component of the \ac{CFR} estimates, we define the log-likelihood ratio as
-\begin{equation}
-	\rho_{LLE} (f) \triangleq \dfrac{LLE(\mathcal{A},f )}{\max_{\mathcal{A}} LLE(\mathcal{A},f)},
-\end{equation}
-where $ LLE(\mathcal{A})$ is the value of the log-likelihood associated with the statistical distribution denoted by $\mathcal{A}\in\{${Beta, Birnbaum–Saunders, Gamma, Logistic, Log-normal, Normal, Rayleigh, Rician, t Location-Scale, Uniform}$\}$ and $\max_{\mathcal{A}} LLE(\mathcal{A})$ is the value of the log-likelihood related to the statistical distribution yielding the best modeling. Note that the best results are achieved when $\rho_{LLE} (f) \rightarrow 1.0$. Fig. \ref{fig:Log_like} shows the values of  $\rho_{LLE}(f)$ for the three best statistical distributions candidates to model the magnitude of the valid \ac{CFR} estimates. Note that the vertical axis was limited to the range from $0$ up to $5.0$ to facilitate the visualization and the comparison among the log-likelihood ratio ($\rho_{LLE} (f)$) curves. These curves emphasize the suitability of the Beta distribution to model the samples of the magnitude of the valid \ac{CFR} estimates. Overall, the results presented in Fig. \ref{MAG_percent} and Fig. \ref{fig:Log_like} strongly indicate the use of the Beta distribution to model the magnitude of the valid \ac{CFR} estimates of the measured in-home Brazilian \ac{PLC} channels. This result is different from previous works that had suggested the Log-normal or Rayleigh distributions to model this magnitude, see \cite{Galli:Wireline,RayleighPLC}.
+%In order to evaluate which of the three distributions is the best choice to model the magnitude component of the \ac{CFR} estimates, we define the log-likelihood ratio as
+%\begin{equation}
+%	\rho_{LLE} (f) \triangleq \dfrac{LLE(\mathcal{A},f )}{\max_{\mathcal{A}} LLE(\mathcal{A},f)},
+%\end{equation}
+%where $ LLE(\mathcal{A})$ is the value of the log-likelihood associated with the statistical distribution denoted by $\mathcal{A}\in\{${Beta, Birnbaum–Saunders, Gamma, Logistic, Log-normal, Normal, Rayleigh, Rician, t Location-Scale, Uniform}$\}$ and $\max_{\mathcal{A}} LLE(\mathcal{A})$ is the value of the log-likelihood related to the statistical distribution yielding the best modeling. Note that the best results are achieved when $\rho_{LLE} (f) \rightarrow 1.0$. 
+Fig. \ref{fig:Log_like} shows the values of  $\rho_{LLE}(f)$ for the three best statistical distributions candidates to model the magnitude of the valid \ac{CFR} estimates. Note that the vertical axis was limited to the range from $0$ up to $5.0$ to facilitate the visualization and the comparison among the log-likelihood ratio ($\rho_{LLE} (f)$) curves. These curves emphasize the suitability of the Beta distribution to model the samples of the magnitude of the valid \ac{CFR} estimates. Overall, the results presented in Fig. \ref{MAG_percent} and Fig. \ref{fig:Log_like} strongly indicate the use of the Beta distribution to model the magnitude of the valid \ac{CFR} estimates of the measured in-home Brazilian \ac{PLC} channels. This result is different from previous works that had suggested the Log-normal or Rayleigh distributions to model this magnitude, see \cite{Galli:Wireline,RayleighPLC}.
 
 \begin{figure}[h!]
 	\centering
@@ -394,31 +395,31 @@ By interpolating the parameters values $\alpha(k\Delta f)$ and $\beta(k\Delta f)
 	\end{tabular}
 \end{table*}
 
-Fig. \ref{Phase_percent} shows the relative frequency of statistical distributions that had modeled, in accord with the adopted criteria, the phase of the whole set of valid \ac{CFR} estimates. We noticed that 100\% of the data set is best modeled by the Uniform distribution. On this scenario, differently form the Beta distribution, the statistical analysis of the valid \ac{CFR} estimates shows that each sample of it can be modeled by the same set of parameters of the Uniform distribution. In other words, $\Theta_k \in [0, 2\pi]$ denotes the interval of values that the phase of the valid \ac{CFR} estimates can assume and it defines the support for the Uniform distribution. 
-
-Fig. \ref{phase_example} and Fig. \ref{phase_example2} show the statistical models regarding the frequencies $f=52.1$~MHz ($f = 1067\Delta f$) and $f=78.125$~MHz ($f = 1600\Delta f$), respectively. Independent of the frequency values, the probability of the phase of the valid \ac{CFR} estimates are equal to $\mathbb{P}(f) = 1/2\pi$. %Therefore, there is no need to model the parameters of the statistical distribution for all data set of the valid \ac{CFR} estimates. 
-As a result, by using the Uniform distribution defined in the interval $[0, 2\pi]$, the random process represented by the phase of the valid \ac{CFR} estimates, named ${\bf \Theta}$, is yielded.
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=0.49\textwidth]{images/Phase_percent.eps}
-	\caption{The relative frequency associated with the chosen statistical distribution that best models \ac{CFR} phase in accord with the adopted criteria.}
-	\label{Phase_percent}
-\end{figure}
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=0.49\textwidth]{images/Phase_hist.eps}
-	\caption{The relative frequency of the phase of the valid \ac{CFR} estimates at the sample $k$ = 1067 ($k\Delta f= 52.1$ MHz) using the Uniform distribution.}
-	\label{phase_example}
-\end{figure}
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=0.49\textwidth]{images/Phase_hist2.eps}
-	\caption{The relative frequency of the phase of the valid \ac{CFR} estimates at the sample $k$ = 1600 ($k\Delta f= 78.125$ MHz) using the Uniform distribution.}
-	\label{phase_example2}
-\end{figure}
+%Fig. \ref{Phase_percent} shows the relative frequency of statistical distributions that had modeled, in accord with the adopted criteria, the phase of the whole set of valid \ac{CFR} estimates. We noticed that 100\% of the data set is best modeled by the Uniform distribution. On this scenario, differently form the Beta distribution, the statistical analysis of the valid \ac{CFR} estimates shows that each sample of it can be modeled by the same set of parameters of the Uniform distribution. In other words, $\Theta_k \in [0, 2\pi]$ denotes the interval of values that the phase of the valid \ac{CFR} estimates can assume and it defines the support for the Uniform distribution. 
+%
+%Fig. \ref{phase_example} and Fig. \ref{phase_example2} show the statistical models regarding the frequencies $f=52.1$~MHz ($f = 1067\Delta f$) and $f=78.125$~MHz ($f = 1600\Delta f$), respectively. Independent of the frequency values, the probability of the phase of the valid \ac{CFR} estimates are equal to $\mathbb{P}(f) = 1/2\pi$. %Therefore, there is no need to model the parameters of the statistical distribution for all data set of the valid \ac{CFR} estimates. 
+%As a result, by using the Uniform distribution defined in the interval $[0, 2\pi]$, the random process represented by the phase of the valid \ac{CFR} estimates, named ${\bf \Theta}$, is yielded.
+%
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics[width=0.49\textwidth]{images/Phase_percent.eps}
+%	\caption{The relative frequency associated with the chosen statistical distribution that best models \ac{CFR} phase in accord with the adopted criteria.}
+%	\label{Phase_percent}
+%\end{figure}
+%
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics[width=0.49\textwidth]{images/Phase_hist.eps}
+%	\caption{The relative frequency of the phase of the valid \ac{CFR} estimates at the sample $k$ = 1067 ($k\Delta f= 52.1$ MHz) using the Uniform distribution.}
+%	\label{phase_example}
+%\end{figure}
+%
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics[width=0.49\textwidth]{images/Phase_hist2.eps}
+%	\caption{The relative frequency of the phase of the valid \ac{CFR} estimates at the sample $k$ = 1600 ($k\Delta f= 78.125$ MHz) using the Uniform distribution.}
+%	\label{phase_example2}
+%\end{figure}
 
 \section{Conclusions}
 %This paper has presented a statistical characterization and modeling of the \ac{CFR} estimates of the Brazilian in-home \ac{PLC} channels, constituting an important result to support future efforts in simulating and designing in-home broadband \ac{PLC} systems. The statistical characterization and modeling have been based on the analysis of a data set of measured \ac{CFR} estimates, covering the frequency band between $1.7$ and $100$~MHz, acquired from a measurement campaign performed in seven typical Brazilian residences. This work has assumed the magnitude and phase of the \ac{CFR} estimates as two \acp{r.v.} ($|{\bf H}|$ and ${\bf \Theta}$).
