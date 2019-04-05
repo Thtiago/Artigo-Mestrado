@@ -105,26 +105,6 @@ A.~A.~M. Picorone, T.~R. Oliveira, and M.~V. Ribeiro, ``{PLC} channel
   \emph{IEEE Latin America Transactions}, vol.~12, no.~4, pp. 580--589, Jun.
   2014.
 
-\bibitem{Gardner:Interpolation}
-F.~M. Gardner, ``Interpolation in digital modems. i. fundamentals,'' \emph{IEEE
-  Trans, Commun.}, vol.~41, no.~3, pp. 501--507, Mar. 1993.
-
-\bibitem{Hanzo:OFDMSync}
-T.~Keller and L.~Hanzo, ``Orthogonal frequency division multiplex
-  synchronization techniques for wireless local area networks,'' in \emph{Proc.
-  IEEE Int. Symp. on Personal, Indoor and Mobile Radio Communications}, vol.~3,
-  Oct. 1996, pp. 963--967.
-
-\bibitem{Cardoso:CEzeropad}
-D.~F. Cardoso, F.~D. Backx, and R.~Sampaio-Neto, ``Improved pilot-aided channel
-  estimation in zero padded {MC-CDMA} systems,'' in \emph{Proc. Int. Symp. on
-  Wireless Pervasive Computing}, Feb. 2009, pp. 1--5.
-
-\bibitem{Ouzzif:CP}
-M.~Ouzzif and J.~L. Masson, ``Statistical analysis of the cyclic prefix impact
-  on indoor {PLC} capacity,'' in \emph{Proc. IEEE Int. Symp. on Power Line
-  Commun. Appl.}, Mar. 2009, pp. 285--289.
-
 \bibitem{Canete:AIPLC}
 F.~J.~C. Corripio, J.~A.~C. Arrabal, L.~D. del Rio, and J.~T.~E. Munoz,
   ``Analysis of the cyclic short-term variation of indoor power line
