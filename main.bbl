@@ -21,6 +21,205 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{Hrasnica:PLC_design}
+H.~Hrasnica, A.~Haidine, and R.~Lehnert, \emph{Broadband PowerLine
+  Communications Network Design}.\hskip 1em plus 0.5em minus 0.4em\relax John
+  Wiley \& Sons, 2004.
+
+\bibitem{Dib}
+L.~{de M. B. A. Dib}, V.~Fernandes, M.~{de L. Filomeno}, and M.~V. Ribeiro,
+  ``Hybrid {PLC}/wireless communication for smart grids and {Internet of
+  Things} applications,'' \emph{IEEE Internet Things J.}, vol.~5, no.~2, pp.
+  655--667, Apr. 2018.
+
+\bibitem{Zhai:low}
+M.~Y. Zhai, ``Transmission characteristics of low-voltage distribution networks
+  in {C}hina under the smart grids environment,'' \emph{IEEE Trans. Power
+  Del.}, vol.~26, no.~1, pp. 173--180, Jan. 2011.
+
+\bibitem{Lazaropoulos}
+A.~G. Lazaropoulos and P.~G. Cottis, ``Transmission characteristics of overhead
+  medium-voltage power-line communication channels,'' \emph{IEEE Trans. Power
+  Del.}, vol.~24, no.~3, pp. 1164--1173, Jul. 2009.
+
+\bibitem{Zajc}
+M.~Zajc, N.~Suljanovic, A.~Mujcic, and J.~Tasic, ``High voltage power line
+  constraints for high speed communications,'' in \emph{Proc. IEEE
+  Mediterranean Electrotechnical Conf.}, vol.~1, May 2004, pp. 285--288.
+
+\bibitem{Aquilue}
+R.~Aquilue, M.~Ribo, J.~R. Regue, J.~L. Pijoan, and G.~Sanchez, ``Scattering
+  parameters-based channel characterization and modeling for underground
+  medium-voltage power-line communications,'' \emph{IEEE Trans. Power Del.},
+  vol.~24, no.~3, pp. 1122--1131, Jul. 2009.
+
+\bibitem{Amirshahi:PLC}
+P.~Amirshahi and M.~Kavehrad, ``High-frequency characteristics of overhead
+  multiconductor power lines for broadband communications,'' \emph{IEEE J. Sel.
+  Areas Commun.}, vol.~24, no.~7, pp. 1292--1303, Jul. 2006.
+
+\bibitem{Tlich:Indoor}
+M.~Tlich, A.~Zeddam, F.~Moulin, and F.~Gauthier, ``Indoor power-line
+  communications channel characterization up to 100 mhz-part ii: time-frequency
+  analysis,'' \emph{IEEE Trans. Power Del.}, vol.~23, no.~3, pp. 1402--1409,
+  Jul. 2008.
+
+\bibitem{Vallejo:Vehicle_PLC}
+A.~B. Vallejo-Mora, J.~J. Sanchez-Martinez, F.~J. Canete, J.~A. Cortes, and
+  L.~Diez, ``Analysis of in-vehicle power line channel response,'' \emph{IEEE
+  Latin America Transactions}, vol.~9, no.~4, pp. 445--450, Jul. 2011.
+
+\bibitem{Barmada:Ships_PLC}
+S.~Barmada, L.~Bellanti, M.~Raugi, and M.~Tucci, ``Analysis of power-line
+  communication channels in ships,'' \emph{IEEE Trans. Veh. Technol.}, vol.~59,
+  no.~7, pp. 3161--3170, Sep. 2010.
+
+\bibitem{Jones:Aircraft_PLC}
+C.~H. Jones, ``Communications over aircraft power lines,'' in \emph{Proc. IEEE
+  Int. Symp. on Power Line Commun. Appl.}, 2006, pp. 149--154.
+
+\bibitem{Gassara:Charac_PLC}
+H.~Gassara, F.~Rouissi, and A.~Ghazel, ``Statistical characterization of the
+  indoor low-voltage narrowband power line communication channel,'' \emph{IEEE
+  Trans. Electromagn. Compat.}, vol.~56, no.~1, pp. 123--131, Jul. 2014.
+
+\bibitem{Chrysochos:MIMO_OFDM}
+A.~I. Chrysochos, T.~A. Papadopoulos, A.~ElSamadouny, G.~K. Papagiannis, and
+  N.~Al-Dhahir, ``Optimized {MIMO-OFDM} design for narrowband-{PLC}
+  applications in medium-voltage smart distribution grids,'' \emph{Electric
+  Power Systems Research}, vol. 140, pp. 253--262, Feb. 2016.
+
+\bibitem{Galli:Wireline}
+S.~Galli, ``A novel approach to the statistical modeling of wireline
+  channels,'' \emph{IEEE Trans. Commun.}, vol.~59, no.~5, pp. 1332--1345, May
+  2011.
+
+\bibitem{Anatel:PLC}
+\emph{Brazilian resolution for {PLC}}, ANATEL Std. 527, 2009.
+
+\bibitem{Canete:Model}
+F.~J. Canete, L.~Diez, J.~A. Cortes, and J.~T. Entrambasaguas, ``Broadband
+  modelling of indoor power-line channels,'' \emph{IEEE Trans. Consum.
+  Electron.}, vol.~48, no.~1, pp. 175--183, Feb. 2002.
+
+\bibitem{Canete:PLC}
+F.~J. Canete, J.~A. Cortes, L.~Diez, and J.~T. Entrambasaguas, ``A channel
+  model proposal for indoor power line communications,'' \emph{IEEE Commun.
+  Mag.}, vol.~49, no.~12, pp. 166--174, Dec. 2011.
+
+\bibitem{Cortes:PLC}
+J.~A. Cortes, F.~J. Canete, L.~Díez, and J.~L.~G. Moreno, ``On the statistical
+  properties of indoor power line channels: measurements and models,'' in
+  \emph{Proc. IEEE Int. Symp. on Power Line Commun. Appl.}, Apr. 2011, pp.
+  271--276.
+
+\bibitem{GalliUS}
+S.~Galli, ``A simplified model for the indoor power line channel,'' in
+  \emph{Proc. IEEE Int. Symp. on Power Line Commun. Appl.}, Mar. 2009, pp.
+  13--19.
+
+\bibitem{Thiago:Characterization}
+T.~R. Oliveira, A.~A.~M. Picorone, S.~L. Netto, and M.~V. Ribeiro,
+  ``Characterization of {B}razilian in-home power line channels for data
+  communication,'' \emph{Electric Power Systems Research}, vol. 150, pp.
+  188--197, Sep. 2017.
+
+\bibitem{Guze}
+S.~G\"{u}zelg\"{o}z, ``Characterizing wireless and powerline communicarion
+  channels with applications to smart grid networks,'' Ph.D. dissertation,
+  University of South Florida, Apr. 2011.
+
+\bibitem{Sayed2015}
+M.~Sayed, G.~Sebaali, B.~L. Evans, and N.~Al-Dhahir, ``Efficient diversity
+  technique for hybrid narrowband-powerline/wireless smart grid
+  communications,'' in \emph{Proc. IEEE Int. Conf. Smart Grid Commun.}, Nov.
+  2015, pp. 1--6.
+
+\bibitem{IEEEWI}
+``Ieee standard for information technology--telecommunications and information
+  exchange between systems local and metropolitan area networks--specific
+  requirements - part 11: Wireless lan medium access control (mac) and physical
+  layer (phy) specifications,'' \emph{IEEE Std 802.11-2016 (Revision of IEEE
+  Std 802.11-2012)}, pp. 1--3534, Dec. 2016.
+
+\bibitem{GSM}
+G.~Gu and G.~Peng, ``The survey of gsm wireless communication system,'' in
+  \emph{Proc. 2010 International Conference on Computer and Information
+  Application}, Dec. 2010, pp. 121--124.
+
+\bibitem{Patel}
+D.~Patel and M.~Won, ``Experimental study on low power wide area networks
+  (lpwan) for mobile internet of things,'' in \emph{Proc. 2017 IEEE 85th
+  Vehicular Technology Conference (VTC Spring)}, June 2017, pp. 1--5.
+
+\bibitem{COST}
+L.~Liu, C.~Oestges, J.~Poutanen, K.~Haneda, P.~Vainikainen, F.~Quitin,
+  F.~Tufvesson, and P.~D. Doncker, ``The cost 2100 mimo channel model,''
+  \emph{IEEE Wireless Communications}, vol.~19, no.~6, pp. 92--99, Dec. 2012.
+
+\bibitem{802.15}
+A.~F. Molisch, K.~Balakrishnan, C.~chin Chong, S.~Emami, A.~Fort, J.~Karedal,
+  J.~Kunisch, H.~Schantz, U.~Schuster, and K.~Siwiak, ``{IEEE} 802. 15. 4a
+  channel model-final report,'' \emph{IEEE P802}, vol.~15, Jan. 2004.
+
+\bibitem{Hiperlan2}
+J.~Medbo and P.~Schramm, ``Channel models for hiperlan/2 in different indoor
+  scenarios,'' ETSI EP, BRAN Meeting $\#$ 3, Technical Report 3ERI085B, Mar.
+  1998.
+
+\bibitem{Victor2017}
+V.~Fernandes, W.~A. Finamore, H.~V. Poor, and M.~V. Ribeiro, ``The low-bit-rate
+  hybrid power line/wireless single-relay channel,'' \emph{IEEE Systems
+  Journal}, vol.~PP, no.~99, pp. 1--12, 2017.
+
+\bibitem{Holden2011}
+T.~Holden and J.~Yazdani, ``Hybrid security for hybrid vehicles exploring smart
+  grid technology, powerline and wireless communication,'' in \emph{Proc. IEEE
+  PES Int. Conf. and Exhibition on Innov. Smart Grid Technol.}, Dec. 2011, pp.
+  1--5.
+
+\bibitem{Mischa}
+M.~Schwartz, ``Carrier-wave telephony over power lines: Early history [history
+  of communications],'' \emph{IEEE Communications Magazine}, vol.~47, no.~1,
+  pp. 14--18, Jan. 2009.
+
+\bibitem{thiago:hyb}
+T.~R. Oliveira, F.~J.~A. Andrade, A.~A.~M. Picorone, H.~A. Latchman, S.~L.
+  Netto, and M.~V. Ribeiro, ``Characterization of hybrid communication channel
+  in indoor scenario,'' vol.~31, p. 224, Sep. 2016.
+
+\bibitem{Sayed2014}
+M.~Sayed and N.~Al-Dhahir, ``Narrowband-{PLC}/wireless diversity for smart grid
+  communications,'' in \emph{Proc. IEEE Global Commun. Conf.}, Dec. 2014, pp.
+  2966--2971.
+
+\bibitem{Luis:AI}
+L.~G.~S. Costa, G.~R. Colen, A.~C.~M. {de Queiroz}, V.~L.~R. {da Costa},
+  U.~R.~C. Vitor, F.~{dos Santos}, and M.~V. Ribeiro, ``Access impedance in
+  {B}razilian in-home, broadband and low-voltage electric power grids,''
+  \emph{Electric Power Systems Research}, 2018, to be published.
+
+\bibitem{Luis:doc}
+L.~G.~S. Costa, ``Non-adaptive and adaptive coupling circuits for power line
+  communication system,'' Ph.D. dissertation, Federal University of Juiz de
+  Fora, Sep. 2017.
+
+\bibitem{thiago:hyb2}
+T.~R. Oliveira, A.~A. Picorone, C.~B. Zeller, S.~L. Netto, and M.~V. Ribeiro,
+  ``On the statistical characterization of hybrid plc-wireless channels,''
+  \emph{Electric Power Systems Research}, vol. 163, pp. 329 -- 337, 2018.
+
+\bibitem{thiago:doc}
+T.~R. Oliveira, ``The characterization of hybrid {PLC}-wireless and {PLC}
+  channels in the frequency band between 1.7 and 100 mhz for data
+  communication,'' Ph.D. dissertation, Federal University of Juiz de Fora, Mar.
+  2015.
+
+\bibitem{Galli:indoor}
+S.~Galli and T.~Banwell, ``A novel approach to the modeling of the indoor power
+  line channel-part ii: transfer function and its properties,'' \emph{IEEE
+  Trans. Power Del.}, vol.~20, no.~3, pp. 1869--1878, Jul. 2005.
+
 \bibitem{Colen:TCRA}
 G.~R. Colen, H.~Schettino, D.~Fernandes, L.~M. Sirimarco, F.~P.~V. Campos,
   W.~A. Finamore, H.~A. Latchman, and M.~V. Ribeiro, ``A temporal compressive
@@ -32,22 +231,6 @@ G.~R. Colen, H.~Schettino, D.~Fernandes, L.~M. Sirimarco, F.~P.~V. Campos,
 J.-H. Lee, J.-H. Park, H.-S. Lee, G.-W. Leett, and S.-C. Kim, ``Measurement,
   modeling and simulation of power line channel for indoor high-speed data
   communications,'' Apr. 2019.
-
-\bibitem{thiago:hyb}
-T.~R. Oliveira, F.~J.~A. Andrade, A.~A.~M. Picorone, H.~A. Latchman, S.~L.
-  Netto, and M.~V. Ribeiro, ``Characterization of hybrid communication channel
-  in indoor scenario,'' vol.~31, p. 224, Sep. 2016.
-
-\bibitem{Galli:indoor}
-S.~Galli and T.~Banwell, ``A novel approach to the modeling of the indoor power
-  line channel-part ii: transfer function and its properties,'' \emph{IEEE
-  Trans. Power Del.}, vol.~20, no.~3, pp. 1869--1878, Jul. 2005.
-
-\bibitem{Luis:AI}
-L.~G.~S. Costa, G.~R. Colen, A.~C.~M. {de Queiroz}, V.~L.~R. {da Costa},
-  U.~R.~C. Vitor, F.~{dos Santos}, and M.~V. Ribeiro, ``Access impedance in
-  {B}razilian in-home, broadband and low-voltage electric power grids,''
-  \emph{Electric Power Systems Research}, 2018, to be published.
 
 \bibitem{mitra}
 S.~K. Mitra, \emph{Digital Signal Processing: A Computer-Based Approach},
@@ -86,12 +269,6 @@ S.~D. Conte and C.~D. Boor, \emph{Elementary Numerical Analysis: An Algorithmic
 S.~A. Dyer and J.~S. Dyer, ``Cubic-spline interpolation. 1,'' \emph{IEEE
   Instrumentation Measurement Magazine}, vol.~4, no.~1, pp. 44--46, Mar. 2001.
 
-\bibitem{Thiago:Characterization}
-T.~R. Oliveira, A.~A.~M. Picorone, S.~L. Netto, and M.~V. Ribeiro,
-  ``Characterization of {B}razilian in-home power line channels for data
-  communication,'' \emph{Electric Power Systems Research}, vol. 150, pp.
-  188--197, Sep. 2017.
-
 \bibitem{Thiago:FR}
 T.~R. Oliveira, C.~A.~G. Marques, W.~A. Finamore, S.~L. Netto, and M.~V.
   Ribeiro, ``A methodology for estimating frequency responses of electric power
@@ -115,11 +292,6 @@ F.~J.~C. Corripio, J.~A.~C. Arrabal, L.~D. del Rio, and J.~T.~E. Munoz,
   ``Analysis of the cyclic short-term variation of indoor power line
   channels,'' \emph{IEEE J. Sel. Areas Commun.}, vol.~24, no.~7, pp.
   1327--1338, Jul. 2006.
-
-\bibitem{Galli:Wireline}
-S.~Galli, ``A novel approach to the statistical modeling of wireline
-  channels,'' \emph{IEEE Trans. Commun.}, vol.~59, no.~5, pp. 1332--1345, May
-  2011.
 
 \bibitem{RayleighPLC}
 A.~Mathur, M.~R. Bhatnagar, and B.~K. Panigrahi, ``{PLC} performance analysis
