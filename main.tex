@@ -57,7 +57,9 @@
 \newacro{UWB}{Ultra-wide-band}
 \begin{document}
 
-\title{Statistical Modeling of Frequency Responses Magnitude for the Brazilian In-Home Channels: PLC and Cascade of PLC and Wireless}
+%\title{Statistical Modeling of Frequency Responses Magnitude for the Brazilian In-Home Channels: PLC and Cascade of PLC and Wireless}
+
+\title{Statistical Magnitude Modeling of Brazilian In-Home PLC and hybrid PLC-Wireless Channels}
 
 \author{Thiago~F.~do~A.~Nogueira,~Guilherme~R.~Colen,~\IEEEmembership{Member,~IEEE},
 	~Victor~Fernandes,~and~Moises~V.~Ribeiro,~\IEEEmembership{Senior~Member,~IEEE}
@@ -163,11 +165,11 @@ the problem formulation; Section III describes the methodology to obtain the unc
 
 \section{Problem Formulation}
 
-Fig. \ref{PLCchannel} portrays the block diagram of a \ac{PLC} system which is supposed to transmit information carrying signals through an electric power circuit in the frequency band delimited by $0$ and $B$~Hz (i.e., baseband data communication). This electric power circuit is supposed to be linear and time-varying system. According to this figure, the received signal is expressed as
+Fig. \ref{PLCchannel} portrays the block diagram of a \ac{PLC} system. In this figure, $T_x$ and $R_x$ represent the data communication's transmitter and receiver respectively. The \ac{PLC} system composed of these communication nodes transmits information through signals that travel in the electric power grid between the frequencies from $0$ to $B$~Hz (i.e., baseband data communication). This electric power circuit is supposed to be a linear and time-varying system. According to the figure, the received signal can be expressed as
 \begin{equation} \label{received signal}
 Y_P(t) = \tilde{Y}_P(t)+V_P(t) = \int_{-\infty}^{+\infty} h_P(t,\tau) X(\tau) d\tau + V_P(t),
 \end{equation}
-where $X(t)\in \mathbb{R}$ is the transmitted signal modeled as a wide sense stationary stochastic process; $h_P(t,\tau)\in \mathbb{R}$ is the time varying \ac{CIR}, related to an impulse applied on the \ac{PLC} channel at the instant $\tau$, modeling the propagation of the transmitted signal through the electric power circuit; $V_P(t)\in \mathbb{R}$ is the additive noise that is modeled as a wide sense stationary random process, $\tilde{Y}_P(t)\in \mathbb{R}$ and $Y_P(t)\in \mathbb{R}$ denote wide sense stationary random processes called the free-of-noise received signal and the received signal, respectively.
+where $X(t)\in \mathbb{R}$ is the transmitted signal, modeled as a wide sense stationary stochastic process; $h_P(t,\tau)\in \mathbb{R}$ is the time-varying \ac{CIR}, related to an impulse applied on the \ac{PLC} channel at the instant $\tau$, which models the propagation of the transmitted signal through the electric power grid; $V_P(t)\in \mathbb{R}$ is the additive noise that is modeled as a wide sense stationary random process, $\tilde{Y}_P(t)\in \mathbb{R}$ and $Y_P(t)\in \mathbb{R}$ denote wide sense stationary random processes denoted by the free-of-noise received signal and the received signal, respectively.
 
 \begin{figure}[h]
 	\centering
@@ -175,34 +177,34 @@ where $X(t)\in \mathbb{R}$ is the transmitted signal modeled as a wide sense sta
 	\psfrag{B}[c][c][1]{PLC Channel}
 	\psfrag{C}[c][c][1]{Receiver}
 	\psfrag{D}[c][c][1]{$T_X$}
-	\psfrag{E}[c][c][1]{$X(t)$}
+	\psfrag{E}[c][c][1]{$~X(t)$}
 	\psfrag{F}[c][c][1]{$h_P(t,\tau)$}
-	\psfrag{G}[c][c][1]{$\tilde{Y}_P(t)$}
+	\psfrag{G}[c][c][1]{$~\tilde{Y}_P(t)$}
 	\psfrag{H}[c][c][1]{$V_P(t)$}
-	\psfrag{I}[c][c][1]{$Y_P(t)$}
+	\psfrag{I}[c][c][1]{$~Y_P(t)$}
 	\psfrag{J}[c][c][1]{$R_X$}
 	\includegraphics[width=0.49\textwidth]{images/PLCchannel.eps}
 	\caption{The block diagram of a PLC system.}
 	\label{PLCchannel}
 \end{figure}
 
-Due to the \ac{LPTV} behavior of \ac{PLC} channels, $h_P(t,\tau)$ can be considered as a cyclostationary stochastic random process with a period equal to a half of the mains frequency \cite{Colen:TCRA}. Based on the knowledge of the coherence time, $T_c \in \mathbb{R}_+$, of the \ac{PLC} channels, the mains cycle ($50$~Hz or $60$~Hz) can be divided into microslots of time interval duration equal to $T_m\in \mathbb{R}_+|T_m < T_c$ and, as a consequence, the \ac{PLC} channels can be modeled as \ac{LTI} during the time interval duration of one microslot. In other words, the channel impulse response of a \ac{PLC} channel at the $i^{th}$ microslot can be expressed as
+Due to the \ac{LPTV} behavior of \ac{PLC} channels, $h_P(t,\tau)$ can be considered as a cyclostationary stochastic random process with a period equal to a half of the mains frequency \cite{Colen:TCRA}. Based on the knowledge of the coherence time, $T_c \in \mathbb{R}_+$, of the \ac{PLC} channels, the mains cycle ($50$~Hz or $60$~Hz) can be divided into microslots of time interval duration equal to $T_m\in \mathbb{R}_+|T_m < T_c$ and, as a consequence, the \ac{PLC} channels can be modeled as \ac{LTI} during the time interval duration of one microslot. In other words, the \ac{CIR} of a \ac{PLC} channel at the $i^{th}$ microslot can be expressed as
 \begin{equation} \label{discreteh}
 h_{i}(t),~\forall~t \in [iT_{m}, (i+1)T_{m}] \mid T_{m} < T_{c}.
 \end{equation}
-From now on, we drop the index $i$ for facilitating further deductions. Based on this adoption, the discrete-time representation of the \ac{CIR} of the \ac{PLC} channel in a microslot is given by
+From now on, we drop the index $i$ for the sake of simplicity. Based on this assumption, the discrete-time representation of the \ac{CIR} of the \ac{PLC} channel in a single microslot is given by
 \begin{equation} \label{discreteCFR}
 h[n] = h_P(t)|_{t=nT_s} , n = 0,1, \ldots, L_h-1, 
 \end{equation}
-where $L_{h}$ is the length of the \ac{LTI} \ac{PLC} channel, $T_s=1/f_s$ is the sampling period and $f_s=2B$~Hz is the sampling frequency. Usually, the value of $L_{h}$ contribute to the adoption of an \ac{HS-OFDM} scheme for channel estimation once the number of subcarriers of an \ac{HS-OFDM} symbol ($2N$) is chosen to ensure that $2N \gg L_h$. Moreover, $B/N < B_c$, in which $B_c$ is the coherence bandwidth of the \ac{PLC} channels. In order to work with $2N$ subcarriers in the \ac{HS-OFDM} scheme for performing \ac{CFR} estimation, the zero-padding have to be applied to $\{h[n]\}$. In vectorial terms, let ${\bf h}=[h_0 h_1 \ldots h_{L_h-1}]^T$, such as $h_n=h[n]$, then we can obtain an $2N\text{-length}$~vector (i.e., $N\in \mathbb{N}|B/N<B_c$) that represents the extended version of the vector ${\bf h}$ when the zero-padding approach is taken into account. As a consequence, the vectorial representation of the \ac{CFR} associated with the extended version of the vector $\mathbf{h}$ is expressed as
+where $L_{h}$ is the length of the \ac{LTI} \ac{PLC} channel, $T_s=1/f_s$ is the sampling period and $f_s=2B$~Hz is the sampling frequency. Usually, the value of $L_{h}$ is in accord with the adoption of an \ac{HS-OFDM} scheme in the context of channel estimation. This is due to the fact that the number of subcarriers of an \ac{HS-OFDM} symbol ($2N$) is chosen to ensure that $2N \gg L_h$. Moreover, $B/N < B_c$, in which $B_c$ is the coherence bandwidth of the \ac{PLC} channels. In order to work with $2N$ subcarriers in the \ac{HS-OFDM} scheme for performing \ac{CFR} estimation, the zero padding has to be applied to $\{h[n]\}$. In vectorial terms, let ${\bf h}=[h_0 h_1 \ldots h_{L_h-1}]^T$, such as $h_n=h[n]$, then we can obtain a $2N\text{-length}$~vector (i.e., $N\in \mathbb{N}|B/N<B_c$) that represents the extended version of the vector ${\bf h}$ when zero padding applies. As a consequence, the vectorial representation of the \ac{CFR} associated with the extended version of $\mathbf{h}$ is expressed as
 \begin{equation}
 \mathbf{H} = \mathbf{W}_{2N}  \begin{bmatrix} \mathbf{I}_{L_h} \\ \mathbf{0}_{(2N-L_{h})\times L_{h}} \end{bmatrix} \mathbf{h},
 \end{equation}
-where $\mathbf{W}_{2N} \in \mathbb{C}^{2N\times 2N}$ denotes the $2N \times 2N$-size \ac{DFT} matrix, $ \mathbf{I}_{L_h} \in \mathbb{R}^{L_h\times L_h}$ denotes an $L_h\times L_h$-size identity matrix, and $ \mathbf{0}_{(2N-L_{h})\times L_{h}} $ is an $ (2N-L_{h})\times L_{h}$ null matrix. The $k^{th}$ element of the vector $\mathbf{H}=[H_0 H_1 \ldots H_{2N-1}]^T \in \mathbb{C}^{2N\times 1}$ may be expressed in polar form $H_k=|H_k|\exp(j \Theta_k)$, in which $|.|$ denotes the absolute value and $\Theta_k$ is the phase value of $H_k$. Since the \ac{CIR} of the \ac{PLC} channel is real-valued, it means that \ac{CFR} posses the hermitian symmetry property and, as a consequence, only the first half of samples of the \ac{CFR} have to be analyzed. The vectors $|{\bf H}|\triangleq [|H_0||H_1|\ldots |H_{N-1}|]^T$ and ${\bf \Theta}\triangleq[\Theta_0\Theta_1\ldots \Theta_{N-1}]^T$ are two distinct random processes that represent, respectively, the magnitude and phase of the first half of the vector $\mathbf{H}$. It is important to emphasize that the nature of \ac{PLC} channels indicates that the vectors $|{\bf H}|$ and ${\bf \Theta}$ are non-stationary and correlated random processes. 
+where $\mathbf{W}_{2N} \in \mathbb{C}^{2N\times 2N}$ denotes the $2N \times 2N$-size \ac{DFT} matrix, $ \mathbf{I}_{L_h} \in \mathbb{R}^{L_h\times L_h}$ denotes an $L_h\times L_h$-size identity matrix, and $ \mathbf{0}_{(2N-L_{h})\times L_{h}} $ is an $ (2N-L_{h})\times L_{h}$ null matrix. The $k^{th}$ element of the vector $\mathbf{H}=[H_0 H_1 \ldots H_{2N-1}]^T \in \mathbb{C}^{2N\times 1}$ may be expressed in the polar form as $H_k=|H_k|\exp(j \Theta_k)$, in which $|.|$ denotes the absolute value and $\Theta_k$ is the phase of $H_k$. Since the \ac{CIR} of the \ac{PLC} channel is real-valued, it means that \ac{CFR} posses the hermitian symmetry property and, as a consequence, the first half of samples of the \ac{CFR} are sufficient for representing the whole \ac{PLC} channel. The vectors $|{\bf H}|\triangleq [|H_0||H_1|\ldots |H_{N-1}|]^T$ and ${\bf \Theta}\triangleq[\Theta_0\Theta_1\ldots \Theta_{N-1}]^T$ are two distinct random processes that represent, respectively, the magnitude and phase of the first half of the vector $\mathbf{H}$. It is important to emphasize that the nature of \ac{PLC} channels indicates that the vectors $|{\bf H}|$ and ${\bf \Theta}$ are non-stationary and correlated random processes. 
 
-Since it is well known that the \ac{CFR} phase component can be modeled as an uniform distribution \cite{unif_phase}, this work aims to model the \ac{CFR} magnitude, due to its usefulness for data communication purpose once its knowledge and of the squared magnitude (i.e.,  $|{\bf H}|^2\triangleq[|H_0|^2|H_1|^2\ldots |H_{N-1}|^2]^T$) of the \ac{CFR} allows deriving closed-form expression of theoretical channel capacity, energy harvesting and physical layer security. In order to do so, we assume that the $k^{th}$ \ac{r.va.} belonging to the magnitude random processes (i.e., the element $|H_k|$) can be modeled by an statistical distribution owing a set of parameters represented by $\mathcal{C}_{|H|_k} = \{ \zeta_{1}[k], \cdots, \zeta_{U}[k] \}$, which is constituted by $U \in \mathbb{N}_+$ parameters. Note that $\zeta_{u}[k] \in \mathbb{R}$ is the $u^{th}$ parameter associated with the chosen statistical distribution offering the best description of the $k^{th}$ element of $|{\bf H}|$.
+Since it is well known that the \ac{CFR} phase component can be modeled as an uniform distribution \cite{unif_phase}, this work aims to model the \ac{CFR} magnitude, due to its usefulness for data communication purpose once its knowledge and of the squared magnitude (i.e.,  $|{\bf H}|^2\triangleq[|H_0|^2|H_1|^2\ldots |H_{N-1}|^2]^T$) of the \ac{CFR} allows deriving closed-form expression of theoretical channel capacity, energy harvesting, physical layer security, and other important parameters In order to do so, we assume that the $k^{th}$ \ac{r.va.} belonging to the magnitude random processes (i.e., the element $|H_k|$) is modeled by an statistical distribution owing a set of parameters represented by $\mathcal{C}_{|H|_k} = \{ \zeta_{1}[k], \cdots, \zeta_{U}[k] \}$, which is constituted by $U \in \mathbb{N}_+$ parameters. Note that $\zeta_{u}[k] \in \mathbb{R}$ is the $u^{th}$ parameter associated with the chosen statistical distribution offering the best description of the $k^{th}$ element of $|{\bf H}|$.
 
-Fig. \ref{Hybchannel} illustrates the block diagram of the employment of hybridism concept in a data communication system, in which \ac{PLC} and \ac{WLC} channels are employed in cascade without an intermediate data communication node between them. As a matter of fact, \ac{PLC} devices are connected to electric power grids through a coupling circuit while the \ac{WLC} devices are connected to the air through an antenna. Both devices directly communicate with each other since they occupy the frequency band delimited by $0$ and $B$~Hz. The received signals at the input of the hybrid \ac{PLC}-\ac{WLC} channels, which is supposed to be a linear stochastic system, are expressed as
+Fig. \ref{Hybchannel} illustrates the block diagram of the employment of hybridism concept in a data communication system, in which \ac{PLC} and \ac{WLC} channels are employed in cascade without an intermediate data communication node between them. As this figure shows, \ac{PLC} devices are connected to electric power grids through a coupling circuit while the \ac{WLC} devices are connected to the air through an antenna. Both devices directly communicate with each other since they occupy the same frequency band delimited by $0$ and $B$~Hz. The received signals at the input of the hybrid \ac{PLC}-\ac{WLC} channels, which is supposed to be a linear stochastic system, are expressed as
 \begin{equation} \label{received signal2}
 Y_{PW}(t) = \int_{-\infty}^{+\infty} h_{PW}(t,\tau) X(\tau) d\tau + V_{PW}(t),
 \end{equation}
@@ -210,7 +212,7 @@ for the signal propagation from the \ac{PLC} device to the \ac{WLC} device (i.e.
 \begin{equation} \label{received signal3}
 Y_{WP}(t) = \int_{-\infty}^{+\infty} h_{WP}(t,\tau) X(\tau) d\tau + V_{WP}(t),
 \end{equation}
-for the reverse path, which is defined by the signal propagation from the \ac{WLC} device to the \ac{PLC} device (i.e., \ac{WLC}~$\rightarrow$~\ac{PLC} direction). In (\ref{received signal2})-(\ref{received signal3}),  $X(t)\in \mathbb{R}$ is the transmitted signal modeled as a wide sense stationary stochastic process; $h_{PW}(t,\tau)\in \mathbb{R}$ and $h_{WP}(t,\tau)\in \mathbb{R}$ denote the \acp{CIR} when an impulse at the instant $\tau$ is applied to the \ac{PLC}~$\rightarrow$~\ac{WLC} and \ac{WLC}~$\rightarrow$~\ac{PLC} directions, respectively; $V_{PW}(t)\in \mathbb{R}$ and $V_{WP}(t)\in \mathbb{R}$ are, respectively, the additive noise components and are modeled as two different wide sense stationary random processes found at the input of the transmitting transceivers, when the \ac{PLC}~$\rightarrow$~\ac{WLC} and \ac{WLC}~$\rightarrow$~\ac{PLC} directions, respectively, take place; $Y_{PW}(t)\in \mathbb{R}$ and ${Y}_{WP}(t)\in \mathbb{R}$ are wide sense stationary random processes denoting the received signals, respectively, in the \ac{PLC}~$\rightarrow$~\ac{WLC} and \ac{WLC}~$\rightarrow$~\ac{PLC} directions.
+for the reverse path, which is defined by the signal propagation from the \ac{WLC} device to the \ac{PLC} device (i.e., \ac{WLC}~$\rightarrow$~\ac{PLC} direction). In (\ref{received signal2})-(\ref{received signal3}),  $X(t)\in \mathbb{R}$ is the transmitted signal modeled as a wide sense stationary stochastic process; $h_{PW}(t,\tau)\in \mathbb{R}$ and $h_{WP}(t,\tau)\in \mathbb{R}$ denote the \acp{CIR} when an impulse at the instant $\tau$ is applied to the channel defined by the \ac{PLC}~$\rightarrow$~\ac{WLC} and \ac{WLC}~$\rightarrow$~\ac{PLC} directions, respectively; $V_{PW}(t)\in \mathbb{R}$ and $V_{WP}(t)\in \mathbb{R}$ are, respectively, the \ac{WLC} and \ac{PLC} additive noise components, modeled as two different wide sense stationary random processes found at the input of the receivers, when the \ac{PLC}~$\rightarrow$~\ac{WLC} and \ac{WLC}~$\rightarrow$~\ac{PLC} directions take place; $Y_{PW}(t)\in \mathbb{R}$ and ${Y}_{WP}(t)\in \mathbb{R}$ are wide sense stationary random processes denoting the received signals, respectively, in the \ac{PLC}~$\rightarrow$~\ac{WLC} and \ac{WLC}~$\rightarrow$~\ac{PLC} directions.
 
 \begin{figure}[h]
 	\centering
@@ -224,18 +226,18 @@ for the reverse path, which is defined by the signal propagation from the \ac{WL
 	\psfrag{H}[c][c][0.9]{hybrid-Wireless}
 	\psfrag{I}[c][c][0.9]{Transceiver}
 	\psfrag{J}[c][l][0.9]{Antenna}
-	\psfrag{K}[c][c][0.9]{Wireless}
-	\psfrag{L}[c][c][0.9]{signal}
+	\psfrag{K}[c][c][0.9]{Wireless$~~~~~~~~~~~~~~~~~~$}
+	\psfrag{L}[c][c][0.9]{signal$~~~~~~~~~~~~~~~~~$}
 	\includegraphics[width=0.49\textwidth]{images/Hybrid_channel.eps}
 	\caption{The block diagram of a hybrid PLC-WLC system.}
 	\label{Hybchannel}
 \end{figure}
 
-It is important to highlight that the symmetry of the hybrid \ac{PLC}-\ac{WLC} channel magnitude response is verified when the transmitter and the receiver have the same access impedance, see \cite{thiago:hyb}. Mathematically, $h_{PW}(t,\tau)=h_{WP}(t,\tau)$ agrees with the results presented in \cite{Galli:indoor}, which focuses only on \ac{PLC} channels. Due to the specific characteristics of each media (e.g., power line and air), the symmetry property does not hold true for the additive noises $V_{PW}(t)$ and $V_{WP}(t)$ \cite{thiago:hyb}. 
+It is important to highlight that the symmetry of the hybrid \ac{PLC}-\ac{WLC} \ac{CFR} is verified when the transmitter and the receiver have the same access impedance \cite{thiago:hyb}. Mathematically, $h_{PW}(t,\tau)=h_{WP}(t,\tau)$ agrees with the results presented in \cite{Galli:indoor}, which focuses only on \ac{PLC} channels. Due to the specific characteristics of each media (e.g., power line and air), the symmetry property does not hold true for the additive noises $V_{PW}(t)$ and $V_{WP}(t)$ \cite{thiago:hyb}. 
 
-Similar to \ac{PLC} systems, the hybrid \ac{PLC}-\ac{WLC} system operates in the baseband. Therefore the deduction adopted earlier is directly applied to the channel impulse responses of the \ac{PLC}-\ac{WLC} channels. As a result, the vectorial representation of the channel frequency magnitude is also denoted by the vector $|{\bf H}|$. 
+Similar to \ac{PLC} systems, the hybrid \ac{PLC}-\ac{WLC} system operates in the baseband. Therefore, aforementioned mathematical formulation will also take place to the \ac{CIR} of the hybrid \ac{PLC}-\ac{WLC} channels. As a result, the vectorial representation of the \ac{CFR} magnitude will also be denoted as $|{\bf H}|$. 
  
-Given the aforementioned formulation, the following research questions arise: \textit{What kind of statistical distributions are suitable for modeling the random variables that constitute the vector $|{\bf H}|$ under the availability of measured data set obtained from a measurement campaign carried out in Brazilian residences? Could we state that $|{\bf H}|$ is a stationary random process?} The following sections try to answer these challenging research questions.
+Given the aforementioned formulation, the following research questions arise: \textit{What kind of statistical distributions are suitable for modeling the random variables that constitute the vector $|{\bf H}|$? Could we state that $|{\bf H}|$ is a stationary random process?} The following sections try to answer these challenging research questions.
 
 \section{Modeling Methodology}
 
